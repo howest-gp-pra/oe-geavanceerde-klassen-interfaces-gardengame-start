@@ -203,7 +203,14 @@ Op dit moment hebben we een applicatie waarin we zaken in onze tuin kunnen laten
 
 Hiervoor zullen we eerst bepalen dat sommige klassen 'opgegeten' kunnen worden met behulp van de `IConsumable` interface. Deze bepaalt dus dat iets opgeten kàn worden en dwingt een `bool IsPoisonous` af. We moeten dus vertellen of het eerbaar ding giftig is of niet ...
 
-Implementeer `IConsumable` die een property `IsPoisonous` afdwingt op `PoisonousBerry`, `Milk` en `Hay`. Je bepaalt nu of ze giftig zijn of niet. Merk op dat dit een **andere** `IsPoisonous` is dan de plant! We hebben enerzijds een plant die bepaalt of hij giftig is en anderzijds een `IConsumable` die bepaalt of het giftig is of niet!
+Implementeer `IConsumable` die een property `IsPoisonous` afdwingt op `PoisonousBerry`, `Milk` en `Hay`. 
+Dit doe je door in elke respectielijke klasse de property te voorzien:
+`public bool IsPoisonous { get { return true; }}` of `public bool IsPoisonous { get { return false; }}`.
+Je bepaalt nu of ze giftig zijn of niet. 
+
+Merk twee zaken op:
+* De properties hebben geen `set` nodig gezien `IConsumable` dit niet afdwingt
+* Dit een **andere** `IsPoisonous` is dan de plant! We hebben enerzijds een plant die bepaalt of hij giftig is en anderzijds een `IConsumable` die bepaalt of het giftig is of niet!
 
 Voorzie ook in de specifieke 'eetbare' klasses een `override ToString()` waarin je eerst de `base` klasse aanspreekt (`Harvest`) en aan deze string toevoegt of het eetbare item giftig is of niet.
 
