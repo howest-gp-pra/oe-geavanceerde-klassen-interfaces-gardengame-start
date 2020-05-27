@@ -1,4 +1,4 @@
-# oe-geavanceerde-klassen-interfaces-gardengame-opl
+# oe-geavanceerde-klassen-interfaces-gardengame-start
 Begeleide oefening op "geavanceerde klassen" en "interfaces".
 
 # Begeleide oefening
@@ -27,6 +27,9 @@ Enkele scenario's van wat we zullen kunnen doen:
     - In onze tuin staat echter ook een taxus, die gifbessen oplevert. Eet hij deze, dan daalt zijn gezondheid (`Health`)
     - Sommige grassoorten zijn giftig. Hierop zullen we voorzien: dit levert namelijk ook giftig hooi op!
 - ...
+
+## Voorbeelduitwerking
+![flow](Screens/flow.gif)
 
 ## Before we get started ...
 Wat hierboven staat is een (al) vrij uitgebreide lijst, maar het aantal lijnen code zal uiteindelijk vrij beperkt zijn!
