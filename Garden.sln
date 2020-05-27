@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garden.Wpf", "Garden.Wpf\Garden.Wpf.csproj", "{C7702428-8BF2-45E8-B23B-FD94F6AFAA9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garden.Lib", "Garden.Lib\Garden.Lib.csproj", "{966A50FF-D0DD-4996-A97F-A1B554A7F7AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7702428-8BF2-45E8-B23B-FD94F6AFAA9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7702428-8BF2-45E8-B23B-FD94F6AFAA9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7702428-8BF2-45E8-B23B-FD94F6AFAA9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7702428-8BF2-45E8-B23B-FD94F6AFAA9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{966A50FF-D0DD-4996-A97F-A1B554A7F7AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{966A50FF-D0DD-4996-A97F-A1B554A7F7AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{966A50FF-D0DD-4996-A97F-A1B554A7F7AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{966A50FF-D0DD-4996-A97F-A1B554A7F7AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F53D1B63-2A68-4B9D-B5D8-A751319D340A}
+	EndGlobalSection
+EndGlobal
