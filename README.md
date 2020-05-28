@@ -84,6 +84,8 @@ De `Animal`-klasse heeft de volgende **properties**:
 
 De `Animal`-klasse ontvangt in de constructor het gewicht en de grootte en stelt de properties in.
 
+**Opmerking!** Denk goed na over de access modifiers. Niet alles moet public gedeclareerd worden. Denk na waar je private of protected kan gebruiken.
+
 # Level 2: Eerste tuinitems maken en de tuin vullen
 ## De klassen opbouwen
 Een tuinitem kan een plant of een dier zijn die we in de tuin plaatsen. We maken hiervoor in de map `Classes` een aantal nieuwe klassen aan: `Cow`, `Grass` en `Taxus`.
